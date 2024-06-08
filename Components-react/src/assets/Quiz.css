@@ -1,0 +1,102 @@
+.container {
+    width: 700px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+  }
+  
+  .container hr {
+    height: 4px;
+    border: none;
+    background: black;
+  }
+  
+  .container h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .container ul li {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding-left: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .container button {
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    background-color: #553f95;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .container .index {
+    margin: auto;
+    font-size: 25px;
+  }
+  
+  .container .correct {
+    background: rgb(218, 241, 218);
+    border-color: green;
+  }
+  
+  .container .wrong {
+    background: rgb(239, 215, 215);
+    border-color: red;
+  }
+  #box{
+    display: flex;
+    flex-direction: column;
+  }
+  #txt{
+    text-align: center;
+  }
+  #input{
+    height: 40px;
+    width: 500px;
+    align-self: center;
+    margin: 20px;
+  }
+  #table{
+    font-size: larger;
+    border: solid 1px black;
+    text-align: center;
+    margin: auto;
+  }
+  .tb{
+    table-layout: fixed;
+  }
+  #txt2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .center-tb {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.center-tb th, .center-tb td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.center-tb th {
+    background-color: #f2f2f2;
+}
